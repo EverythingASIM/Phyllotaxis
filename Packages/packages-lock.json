@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.asim.extensions.2d": {
+      "version": "https://github.com/EverythingASIM/com.asim.extensions.2d.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "4d9987e68d94ede48a7f384bcb273cf402f7db60"
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.9",
       "depth": 0,

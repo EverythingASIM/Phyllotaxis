@@ -34,9 +34,9 @@ public class Phyllotaxis : MonoBehaviour
 
     void OnGUI()
     {
-        _2DExtension.SetBGColor(Color.black);
+        asim.extension.Extension2D.SetBGColor(Color.black);
 
         Color32 color = Color.HSVToRGB(((angle - radius) % 255)/255, 1, 1);
-        _2DExtension.DrawDot(new Vector2(posX, posY), new Vector2(dotsize, dotsize), color, Color.black);
+        asim.extension.Extension2D.DrawDot(new Vector2(posX, posY), new Vector2(dotsize, dotsize), color, Color.black);
     }
 }
