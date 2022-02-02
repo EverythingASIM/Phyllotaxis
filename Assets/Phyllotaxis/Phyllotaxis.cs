@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+using asim.extensions._2d;
+
 /// <summary>
 /// http://algorithmicbotany.org/papers/abop/abop-ch4.pdf
 /// </summary>
@@ -34,9 +36,9 @@ public class Phyllotaxis : MonoBehaviour
 
     void OnGUI()
     {
-        asim.extension.Extension2D.SetBGColor(Color.black);
+        Extension2D.SetBGColor(Color.black);
 
         Color32 color = Color.HSVToRGB(((angle - radius) % 255)/255, 1, 1);
-        asim.extension.Extension2D.DrawDot(new Vector2(posX, posY), new Vector2(dotsize, dotsize), color, Color.black);
+        Extension2D.DrawDot(new Vector2(posX, posY), new Vector2(dotsize, dotsize), color, Color.black);
     }
 }

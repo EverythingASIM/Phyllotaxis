@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.asim.extensions.2d": "https://github.com/EverythingASIM/com.asim.extensions.2d.git",
+    "com.asim.extensions._2d": "https://github.com/GDAsim/com.asim.extensions.2d.git",
     "com.unity.collab-proxy": "1.15.9",
     "com.unity.ide.visualstudio": "2.0.14",
     "com.unity.ide.vscode": "1.2.4",
