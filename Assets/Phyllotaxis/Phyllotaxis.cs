@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 
-using asim.extensions._2d;
+using asim.unity.extensions._2d;
 
 /// <summary>
 /// http://algorithmicbotany.org/papers/abop/abop-ch4.pdf
 /// </summary>
-/// 
 public class Phyllotaxis : MonoBehaviour
 {
     public int FloretNum = 100;

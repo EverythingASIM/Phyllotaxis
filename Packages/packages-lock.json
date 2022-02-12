@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "com.asim.extensions._2d": {
-      "version": "https://github.com/GDAsim/com.asim.extensions.2d.git",
+    "asim.unity.extensions._2d": {
+      "version": "1.0.0",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {},
-      "hash": "cd58ae7c2ee7636e639b2a22872c10a77dbd4758"
+      "url": "https://registry.npmjs.com"
     },
     "com.unity.collab-proxy": {
       "version": "1.15.9",
